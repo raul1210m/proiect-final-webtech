@@ -1,0 +1,17 @@
+:root { font-family: system-ui, Arial; }
+body { margin: 0; background: #0b0f14; color: #e8eef7; }
+a { color: inherit; }
+.container { max-width: 980px; margin: 0 auto; padding: 18px; }
+.card { background: #121826; border: 1px solid #22304a; border-radius: 14px; padding: 16px; }
+.row { display: flex; gap: 12px; flex-wrap: wrap; }
+.input { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid #22304a; background: #0f1522; color: #e8eef7; }
+.btn { padding: 10px 12px; border-radius: 10px; border: 1px solid #2a3d63; background: #17233a; color: #e8eef7; cursor: pointer; }
+.btn:hover { filter: brightness(1.1); }
+.badge { padding: 4px 10px; border-radius: 999px; border: 1px solid #22304a; font-size: 12px; display: inline-block; }
+.badge.pending { background: #2a230f; }
+.badge.approved { background: #10301a; }
+.badge.rejected { background: #2c0f14; }
+.nav { display: flex; justify-content: space-between; align-items: center; padding: 12px 18px; border-bottom: 1px solid #22304a; background: #0e141f; position: sticky; top: 0; }
+.small { opacity: 0.85; font-size: 13px; }
+h1,h2 { margin: 8px 0 12px; }
+    
